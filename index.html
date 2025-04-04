@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben Parnell</title>
+    <title>Ruben</title>
+    <style>
+        body {
+            font-family: Comic Sans MS, cursive, sans-serif;
+            text-align: center;
+            padding: 50px;
+            animation: rainbow 4s linear infinite;
+        }
+    
+        @keyframes rainbow {
+            0%   { background: red; }
+            16%  { background: orange; }
+            33%  { background: yellow; }
+            50%  { background: green; }
+            66%  { background: blue; }
+            83%  { background: indigo; }
+            100% { background: violet; }
+        }
+    
+        h1 {
+            font-size: 50px;
+            text-decoration: underline;
+            text-shadow: 5px 5px rgb(6, 17, 167);
+        }
+    
+        marquee {
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+    
+        .content {
+            border: 5px dashed rgb(250, 95, 5);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            background: rgb(20, 3, 94);
+            color: white;
+        }
+    
+        a {
+            color: white;
+        }
+    </style>    
 </head>
 <body>
-    <p>hi</p>
+    <marquee behavior="alternate"><h1>Welcome to Ruben's Home!</h1></marquee>
+    <div class="content">
+        <h2>Current Projects</h2>
+        <a href="https://questions.myexams.net">My Exams: Questions</a><br>
+        <a href="https://countdown.myexams.net">My Exams: Countdown</a>
+    </div>
     <!-- Hi Danny -->
 </body>
 </html>
